@@ -815,16 +815,43 @@ footer{ position:relative; z-index:2; padding:50px 0 36px; border-top:1px solid 
 =============================================================== */
 const PROJECTS = [
   {
-    id:'civicai', num:'01', name:'CivicAI', tagline:'An AI-powered civic complaint management platform.',
-    tech:['React.js','Spring Boot','MySQL','JWT','REST API','AI Integration'],
-    features:['Complaint management','User authentication','Admin dashboard','Complaint status tracking','Image upload','AI-powered functionality','Location-related functionality'],
-    problem:'Citizens often struggle to report civic issues and track their resolution status, while administrators lack a structured way to manage and prioritize incoming complaints.',
-    solution:'Built a full-stack platform where users can raise complaints with images and location details, and admins can manage, track and update complaint status through a dedicated dashboard, with AI assisting complaint handling.',
-    challenges:'Coordinating a clean React frontend with a Spring Boot backend, structuring JWT-based authentication securely, and designing a dashboard that stays readable as complaint volume grows.',
-    learned:'Gained hands-on experience integrating a React frontend with REST APIs and JWT authentication, and structuring role-based admin dashboards.',
-    demo:'[ADD LIVE DEMO LINK]', github:'https://github.com/vinita4556',
-    visual:'dashboard'
-  },
+  id: 'jobtracker',
+  num: '01',
+  name: 'JobTracker',
+  tagline: 'A smart job application tracking platform.',
+  
+  tech: [
+    'React.js',
+    'JavaScript',
+    'Tailwind CSS',
+    'React Router',
+    'Recharts',
+    'LocalStorage'
+  ],
+
+  features: [
+    'Job application tracking',
+    'Application status management',
+    'Dashboard with analytics',
+    'Application search and filtering',
+    'Job details management',
+    'Responsive user interface'
+  ],
+
+  problem: 'Managing multiple job applications across different companies can become difficult, making it easy to lose track of application status, interviews and important job details.',
+
+  solution: 'Built a responsive job tracking platform where users can manage their job applications, update application statuses, organize job details and visualize their application progress through an interactive dashboard.',
+
+  challenges: 'Designing a clean dashboard for managing application data, implementing smooth navigation with React Router, and keeping application data organized using LocalStorage.',
+
+  learned: 'Gained hands-on experience building a React-based application, managing frontend state and LocalStorage data, implementing routing, and creating interactive dashboard visualizations.',
+
+  demo: 'https://jobtrack-olive-theta.vercel.app/',
+  
+  github: 'https://github.com/vinita4556/jobtrack',
+
+  visual: 'dashboard'
+},
   {
     id:'shopnest', num:'02', name:'ShopNest', tagline:'Modern e-commerce frontend application.',
     tech:['React.js','Vite','Tailwind CSS','React Router','LocalStorage'],
