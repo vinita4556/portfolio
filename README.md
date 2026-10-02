@@ -194,9 +194,4 @@ The portfolio is designed with a modern developer-focused interface and includes
 - Interactive terminal-style section
 
 
-## ⚙️ Run Locally
 
-Clone the repository:
-
-```bash
-git clone <YOUR-PORTFOLIO-REPO-URL>
